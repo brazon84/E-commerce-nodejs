@@ -6,14 +6,11 @@ const ProductImg = sequelize.define('productImg', {
         type: DataTypes.TEXT,
         allowNull: false
     },
-   /* publicId: {
+   publicId: {
         type: DataTypes.TEXT,
         allowNull: false
     },
-    productId: {
-        type: DataTypes.TEXT,
-        allowNull: false
-    },*/
+    //productId
 });
 
 module.exports = ProductImg;

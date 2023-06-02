@@ -1,5 +1,7 @@
 const request = require("supertest");
 const app = require("../app");
+require('../models')
+
 
 let token;
 let categoryId;
