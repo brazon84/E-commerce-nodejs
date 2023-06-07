@@ -4,8 +4,8 @@ const sequelize = require('../utils/connection');
 const Cart = sequelize.define('cart', {
     /*userId
     productId*/
-    quantily: {
-        type: DataTypes.TEXT,
+    quantity: {
+        type: DataTypes.INTEGER,
         allowNull: false
     },
 });
